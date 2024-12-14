@@ -1,8 +1,6 @@
 <h1><img width="64px" src="ai_diffusion/icons/logo-128.png"> Generative AI <i>for Somiyu</i></h1>
 
-✨[Features](#features) | ⭳ [Download](https://github.com/Acly/Somiyu-ai-diffusion/releases/latest) | 🛠️[Installation](https://www.interstice.cloud/plugin) | 🎞️ [Video](https://youtu.be/Ly6USRwTHe0) | 🖼️[Gallery](#gallery) | 📖[Wiki](https://github.com/Acly/Somiyu-ai-diffusion/wiki) | 💬[Discussion](https://github.com/Acly/Somiyu-ai-diffusion/discussions) | 🗣️[Discord](https://discord.gg/pWyzHfHHhU)
-
-This is a plugin to use generative AI in image painting and editing workflows from within Somiyu. For a more visual introduction, see [**www.interstice.cloud**](https://www.interstice.cloud)
+This is a plugin to use generative AI in image painting and editing workflows from within Somiyu.
 
 The main goals of this project are:
 * **Precision and Control.** Creating entire images from text can be unpredictable.
@@ -17,12 +15,10 @@ The main goals of this project are:
   own models, and run everything local on your hardware. Cloud generation is also available
   to get started quickly without heavy investment.  
 
-[![Watch video demo](media/screenshot-video-preview.webp)](https://youtu.be/Ly6USRwTHe0 "Watch video demo")
-
 ## <a name="features"></a> Features
 
 * **Inpainting**: Use selections for generative fill, expand, to add or remove objects
-* **Live Painting**: Let AI interpret your canvas in real time for immediate feedback. [Watch Video](https://youtu.be/AF2VyqSApjA?si=Ve5uQJWcNOATtABU)
+* **Live Painting**: Let AI interpret your canvas in real time for immediate feedback.
 * **Upscaling**: Upscale and enrich images to 4k, 8k and beyond without running out of memory.
 * **Stable Diffusion**: Supports Stable Diffusion 1.5, and XL. Partial support for SD3.
 * **ControlNet**: Scribble, Line art, Canny edge, Pose, Depth, Normals, Segmentation, +more
@@ -34,8 +30,6 @@ The main goals of this project are:
 * **Customization**: Create your own presets - custom checkpoints, LoRA, samplers and more.
 
 ## <a name="installation"></a> Getting Started
-
-See the [Plugin Installation Guide](https://www.interstice.cloud/plugin) for instructions.
 
 A concise (more technical) version is below:
 
