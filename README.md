@@ -87,29 +87,6 @@ If you're looking for a way to easily select objects in the image, there is a [s
 
 Contributions are very welcome! Check the [contributing guide](CONTRIBUTING.md) to get started.
 
-## <a name="gallery"></a> Gallery
-
-_Live painting with regions (Click for video)_
-[![Watch video demo](media/screenshot-regions.png)](https://youtu.be/PPxOE9YH57E "Watch video demo")
-
-_Inpainting on a photo using a realistic model_
-<img src="media/screenshot-2.png">
-
-_Reworking and adding content to an AI generated image_
-<img src="media/screenshot-1.png">
-
-_Adding detail and iteratively refining small parts of the image_
-<img src="media/screenshot-3.png">
-
-_Modifying the pose vector layer to control character stances (Click for video)_
-[![Watch video demo](media/screenshot-5.png)](https://youtu.be/-QDPEcVmdLI "Watch video demo")
-
-_Control layers: Scribble, Line art, Depth map, Pose_
-![Scribble control layer](media/control-scribble-screen.png)
-![Line art control layer](media/control-line-screen.png)
-![Depth map control layer](media/control-depth-screen.png)
-![Pose control layer](media/control-pose-screen.png)
-
 ## Technology
 
 * Image generation: [Stable Diffusion](https://github.com/Stability-AI/generative-models)
