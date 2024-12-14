@@ -1,8 +1,8 @@
-<h1><img width="64px" src="ai_diffusion/icons/logo-128.png"> Generative AI <i>for Krita</i></h1>
+<h1><img width="64px" src="ai_diffusion/icons/logo-128.png"> Generative AI <i>for Somiyu</i></h1>
 
-✨[Features](#features) | ⭳ [Download](https://github.com/Acly/krita-ai-diffusion/releases/latest) | 🛠️[Installation](https://www.interstice.cloud/plugin) | 🎞️ [Video](https://youtu.be/Ly6USRwTHe0) | 🖼️[Gallery](#gallery) | 📖[Wiki](https://github.com/Acly/krita-ai-diffusion/wiki) | 💬[Discussion](https://github.com/Acly/krita-ai-diffusion/discussions) | 🗣️[Discord](https://discord.gg/pWyzHfHHhU)
+✨[Features](#features) | ⭳ [Download](https://github.com/Acly/Somiyu-ai-diffusion/releases/latest) | 🛠️[Installation](https://www.interstice.cloud/plugin) | 🎞️ [Video](https://youtu.be/Ly6USRwTHe0) | 🖼️[Gallery](#gallery) | 📖[Wiki](https://github.com/Acly/Somiyu-ai-diffusion/wiki) | 💬[Discussion](https://github.com/Acly/Somiyu-ai-diffusion/discussions) | 🗣️[Discord](https://discord.gg/pWyzHfHHhU)
 
-This is a plugin to use generative AI in image painting and editing workflows from within Krita. For a more visual introduction, see [**www.interstice.cloud**](https://www.interstice.cloud)
+This is a plugin to use generative AI in image painting and editing workflows from within Somiyu. For a more visual introduction, see [**www.interstice.cloud**](https://www.interstice.cloud)
 
 The main goals of this project are:
 * **Precision and Control.** Creating entire images from text can be unpredictable.
@@ -12,7 +12,7 @@ The main goals of this project are:
   depth maps, and more.
 * **Workflow Integration.** Most image generation tools focus heavily on AI parameters.
   This project aims to be an unobtrusive tool that integrates and synergizes
-  with image editing workflows in Krita. Draw, paint, edit and generate seamlessly without worrying about resolution and technical details.
+  with image editing workflows in Somiyu. Draw, paint, edit and generate seamlessly without worrying about resolution and technical details.
 * **Local, Open, Free.** We are committed to open source models. Customize presets, bring your
   own models, and run everything local on your hardware. Cloud generation is also available
   to get started quickly without heavy investment.  
@@ -60,33 +60,33 @@ To run locally a powerful graphics card with at least 6 GB VRAM (NVIDIA) is reco
 
 ### Installation
 
-1. If you haven't yet, go and install [Krita](https://krita.org/)! _Required version: 5.2.0 or newer_
-1. [Download the plugin](https://github.com/Acly/krita-ai-diffusion/releases/latest).
-2. Start Krita and install the plugin via Tools ▸ Scripts ▸ Import Python Plugin from File...
+1. If you haven't yet, go and install [Somiyu](https://Somiyu.org/)! _Required version: 5.2.0 or newer_
+1. [Download the plugin](https://github.com/Acly/Somiyu-ai-diffusion/releases/latest).
+2. Start Somiyu and install the plugin via Tools ▸ Scripts ▸ Import Python Plugin from File...
     * Point it to the ZIP archive you downloaded in the previous step.
-    * ⚠ _This will delete any previous install of the plugin._ If you are updating from 1.14 or older please read [updating to a new version](https://github.com/Acly/krita-ai-diffusion/wiki/Common-Issues#how-do-i-update-to-a-new-version-of-the-plugin).
-    * Check [Krita's official documentation](https://docs.krita.org/en/user_manual/python_scripting/install_custom_python_plugin.html) for more options.
-3. Restart Krita and create a new document or open an existing image.
+    * ⚠ _This will delete any previous install of the plugin._ If you are updating from 1.14 or older please read [updating to a new version](https://github.com/Acly/Somiyu-ai-diffusion/wiki/Common-Issues#how-do-i-update-to-a-new-version-of-the-plugin).
+    * Check [Somiyu's official documentation](https://docs.Somiyu.org/en/user_manual/python_scripting/install_custom_python_plugin.html) for more options.
+3. Restart Somiyu and create a new document or open an existing image.
 4. To show the plugin docker: Settings ‣ Dockers ‣ AI Image Generation.
 5. In the plugin docker, click "Configure" to start local server installation or connect.
 
 > [!NOTE]
-> If you encounter problems please check the [FAQ / list of common issues](https://github.com/Acly/krita-ai-diffusion/wiki/Common-Issues) for solutions.
+> If you encounter problems please check the [FAQ / list of common issues](https://github.com/Acly/Somiyu-ai-diffusion/wiki/Common-Issues) for solutions.
 >
-> Reach out via [discussions](https://github.com/Acly/krita-ai-diffusion/discussions), our [Discord](https://discord.gg/pWyzHfHHhU), or report [an issue here](https://github.com/Acly/krita-ai-diffusion/issues). Please note that official Krita channels are **not** the right place to seek help with
+> Reach out via [discussions](https://github.com/Acly/Somiyu-ai-diffusion/discussions), our [Discord](https://discord.gg/pWyzHfHHhU), or report [an issue here](https://github.com/Acly/Somiyu-ai-diffusion/issues). Please note that official Somiyu channels are **not** the right place to seek help with
 > issues related to this extension!
 
 ### _Optional:_ Custom ComfyUI Server
 
 The plugin uses [ComfyUI](https://github.com/comfyanonymous/ComfyUI) as backend. As an alternative to the automatic installation,
-you can install it manually or use an existing installation. If the server is already running locally before starting Krita, the plugin will
+you can install it manually or use an existing installation. If the server is already running locally before starting Somiyu, the plugin will
 automatically try to connect. Using a remote server is also possible this way.
 
-Please check the list of [required extensions and models](https://github.com/Acly/krita-ai-diffusion/wiki/ComfyUI-Setup) to make sure your installation is compatible.
+Please check the list of [required extensions and models](https://github.com/Acly/Somiyu-ai-diffusion/wiki/ComfyUI-Setup) to make sure your installation is compatible.
 
 ### _Optional:_ Object selection tools (Segmentation)
 
-If you're looking for a way to easily select objects in the image, there is a [separate plugin](https://github.com/Acly/krita-ai-tools) which adds AI segmentation tools.
+If you're looking for a way to easily select objects in the image, there is a [separate plugin](https://github.com/Acly/Somiyu-ai-tools) which adds AI segmentation tools.
 
 
 ## Contributing
